@@ -1,6 +1,6 @@
 {
     "name": "CalangoFluxRuralLabs - Co-Labs de Letramento Digital",
-    "short_name": "CalangoFlux",
+    "short_name": "CalangoFluxRural",
     "description": "Co-Lab de Letramento Digital enraizado no meio rural, tecendo redes de saberes e fortalecendo relações regenerativas entre pessoas, tecnologias e territórios.",
     "start_url": "/",
     "display": "standalone",
@@ -9,12 +9,12 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiM4QjQ1MTMiLz4KPHRleHQgeD0iOTYiIHk9IjEwNSIgZm9udC1mYW1pbHk9IlJvYm90byBTbGFiIiBmb250LXNpemU9IjM2IiBmaWxsPSIjRjVGNURDIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCI+Q0Y8L3RleHQ+CjxyZWN0IHg9IjQ4IiB5PSIxMzYiIHdpZHRoPSI5NiIgaGVpZ2h0PSI0IiByeD0iMiIgZmlsbD0iI0QyNjkxRSIvPgo8L3N2Zz4K",
+            "src": "assets/logo.svg",
             "sizes": "192x192",
             "type": "image/svg+xml"
         },
         {
-            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiM4QjQ1MTMiLz4KPHRleHQgeD0iMjU2IiB5PSIyODAiIGZvbnQtZmFtaWx5PSJSb2JvdG8gU2xhYiIgZm9udC1zaXplPSI5NiIgZmlsbD0iI0Y1RjVEQyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiPkNGPC90ZXh0Pgo8cmVjdCB4PSIxMjgiIHk9IjM2MCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIxNiIgcng9IjgiIGZpbGw9IiNEMjY5MUUiLz4KPC9zdmc+Cg==",
+            "src": "assets/logo.svg",
             "sizes": "512x512",
             "type": "image/svg+xml"
         }
