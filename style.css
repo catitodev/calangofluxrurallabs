@@ -60,6 +60,18 @@ body {
     padding: 0 20px;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-nav {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.2));
+}
+
 .nav-logo h2 {
     font-family: 'Roboto Slab', serif;
     color: var(--primary-color);
@@ -139,6 +151,34 @@ body {
     flex: 1;
     padding: 2rem;
     color: var(--text-light);
+}
+
+.hero-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out;
+}
+
+.logo-hero {
+    width: 120px;
+    height: 120px;
+    filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.3));
+    animation: logoFloat 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+}
+
+.logo-hero:hover {
+    transform: scale(1.05) rotate(5deg);
+}
+
+@keyframes logoFloat {
+    0%, 100% { 
+        transform: translateY(0px) rotate(0deg); 
+    }
+    50% { 
+        transform: translateY(-10px) rotate(2deg); 
+    }
 }
 
 .hero-title {
@@ -595,12 +635,58 @@ body {
     gap: 1rem;
 }
 
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.logo-footer {
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.2));
+}
+
 .footer-left h3 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
 }
 
 .footer-right {
     text-align: right;
+}
+
+.github-link {
+    margin-top: 1rem;
+}
+
+.github-repo-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-light);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.github-repo-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.github-repo-link svg {
+    width: 20px;
+    height: 20px;
+}
+
+.github-repo-link span {
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 /* Responsive Design */
@@ -663,6 +749,29 @@ body {
     
     .footer-right {
         text-align: center;
+    }
+    
+    .logo-nav {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .logo-hero {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .logo-footer {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .github-repo-link {
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .github-repo-link span {
+        font-size: 0.8rem;
     }
 }
 
