@@ -1,17 +1,20 @@
 :root {
     --primary-color: #8B4513;
-    --secondary-color: #D2691E;
-    --accent-color: #CD853F;
-    --success-color: #32CD32;
-    --text-dark: #2F4F4F;
+    --secondary-color: #CD853F;
+    --accent-color: #D2691E;
+    --success-color: #228B22;
+    --tech-green: #32CD32;
+    --text-dark: #2F2F2F;
     --text-light: #F5F5DC;
-    --bg-light: #FFF8DC;
+    --bg-light: #FEFEFE;
+    --bg-secondary: #F8F8F0;
     --bg-dark: #3D2914;
     --gradient-1: linear-gradient(135deg, #8B4513 0%, #CD853F 100%);
-    --gradient-2: linear-gradient(135deg, #D2691E 0%, #F4A460 100%);
-    --shadow-light: 0 4px 15px rgba(139, 69, 19, 0.1);
-    --shadow-medium: 0 8px 30px rgba(139, 69, 19, 0.2);
-    --shadow-heavy: 0 15px 35px rgba(139, 69, 19, 0.3);
+    --gradient-2: linear-gradient(135deg, #CD853F 0%, #D2691E 100%);
+    --gradient-tech: linear-gradient(135deg, #228B22 0%, #32CD32 100%);
+    --shadow-light: 0 4px 15px rgba(139, 69, 19, 0.15);
+    --shadow-medium: 0 8px 30px rgba(139, 69, 19, 0.25);
+    --shadow-heavy: 0 15px 35px rgba(139, 69, 19, 0.35);
 }
 
 * {
@@ -22,10 +25,11 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
+    line-height: 1.7;
     color: var(--text-dark);
     background-color: var(--bg-light);
     overflow-x: hidden;
+    font-weight: 400;
 }
 
 .container {
@@ -322,6 +326,27 @@ body {
     transform: translateY(-2px);
 }
 
+.whatsapp-btn {
+    background: var(--success-color) !important;
+    color: white !important;
+    border: 2px solid var(--success-color) !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.whatsapp-btn:hover {
+    background: var(--tech-green) !important;
+    border-color: var(--tech-green) !important;
+    color: white !important;
+    transform: translateY(-2px);
+}
+
+.whatsapp-btn svg {
+    width: 18px;
+    height: 18px;
+}
+
 /* Sections */
 .section {
     padding: 80px 0;
@@ -329,7 +354,7 @@ body {
 }
 
 .section:nth-child(even) {
-    background: white;
+    background: var(--bg-secondary);
 }
 
 .section-title {
@@ -367,7 +392,13 @@ body {
     box-shadow: var(--shadow-light);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid rgba(139, 69, 19, 0.1);
+    border: 1px solid rgba(139, 69, 19, 0.15);
+}
+
+.projeto-card p {
+    color: var(--text-dark);
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .projeto-card:hover {
@@ -412,8 +443,10 @@ body {
 }
 
 .manifesto-text {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 1.15rem;
+    line-height: 1.9;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
 .manifesto-text blockquote {
@@ -453,6 +486,12 @@ body {
     text-align: center;
     color: white;
     transition: transform 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.objetivo-card p {
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .objetivo-card:hover {
@@ -531,6 +570,13 @@ body {
     border-radius: 15px;
     box-shadow: var(--shadow-light);
     border-left: 5px solid var(--secondary-color);
+}
+
+.apoio-category p,
+.apoio-category li {
+    color: var(--text-dark);
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .apoio-category h3 {
@@ -625,6 +671,11 @@ body {
     background: var(--primary-color);
     color: var(--text-light);
     padding: 2rem 0;
+}
+
+.footer p {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    line-height: 1.6;
 }
 
 .footer-content {
