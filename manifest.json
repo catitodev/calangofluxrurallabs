@@ -4,8 +4,8 @@
     "description": "Co-Lab de Letramento Digital enraizado no meio rural, tecendo redes de saberes e fortalecendo relações regenerativas entre pessoas, tecnologias e territórios.",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#a76537ff",
-    "theme_color": "#8B4513",
+    "background_color": "#8B4513",
+    "theme_color": "#CD853F",
     "orientation": "portrait-primary",
     "icons": [
         {
