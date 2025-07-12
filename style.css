@@ -392,7 +392,7 @@ body {
     box-shadow: var(--shadow-light);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid rgba(139, 69, 19, 0.15);
+    border: 1px solid rgba(139, 69, 19, 0.397);
 }
 
 .projeto-card p {
@@ -430,11 +430,11 @@ body {
 /* Manifesto Section */
 .manifesto {
     background: var(--bg-dark);
-    color: var(--text-light);
+    color: #492d13;
 }
 
 .manifesto .section-title {
-    color: var(--text-light);
+    color: #31682a;
 }
 
 .manifesto-content {
@@ -454,7 +454,7 @@ body {
     padding-left: 2rem;
     margin: 2rem 0;
     font-style: italic;
-    background: rgba(210, 105, 30, 0.1);
+    background: rgba(210, 105, 30, 0.664);
     padding: 1.5rem 2rem;
     border-radius: 10px;
 }
@@ -464,7 +464,7 @@ body {
 }
 
 .manifesto-closing {
-    background: rgba(139, 69, 19, 0.2);
+    background: rgb(139, 69, 19);
     padding: 2rem;
     border-radius: 15px;
     margin-top: 2rem;
