@@ -1,0 +1,28 @@
+{
+    "name": "CalangoFluxRuralLabs - Co-Labs de Letramento Digital",
+    "short_name": "CalangoFluxRural",
+    "description": "Co-Lab de Letramento Digital enraizado no meio rural, tecendo redes de saberes e fortalecendo relações regenerativas entre pessoas, tecnologias e territórios.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#8B4513",
+    "theme_color": "#CD853F",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "assets/logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "categories": ["education", "social"],
+    "lang": "pt-BR",
+    "dir": "ltr",
+    "scope": "/",
+    "related_applications": [],
+    "prefer_related_applications": false
+}
