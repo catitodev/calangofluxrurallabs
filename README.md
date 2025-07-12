@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![CalangoFluxRuralLabs Logo](assets/logo.svg)
+![CalangoFluxRuralLabs Logo](assets/logo.png)
 
 **Co-Labs de Letramento Digital enraizado no meio rural**
 
@@ -28,7 +28,7 @@ O **CalangoFluxRuralLabs** é uma iniciativa revolucionária que nasce no coraç
 - ✅ **100% Gratuito** - Mantido exclusivamente por doações
 - 🎁 **Notebook para Casa** - Cada participante leva o equipamento (85% presença + 90% tarefas)
 - 🌟 **Para Todas as Idades** - Infantil, jovem, adulto, sênior
-- 🔄 **Sem Fins Lucrativos** - Movimento de partilha e autonomia
+- 🔄 **Sem Fins Lucrativos** - Movimento de partilha e autonomia 
 
 ---
 

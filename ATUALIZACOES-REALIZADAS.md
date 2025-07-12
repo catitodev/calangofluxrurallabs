@@ -23,17 +23,17 @@
 ```css
 --primary-color: #8B4513     /* Marrom madeira (da logo) */
 --secondary-color: #CD853F   /* Bronze/Peru (da logo) */
---accent-color: #D2691E      /* Chocolate (da logo) */
+--accent-color: #a76537ff      /* Chocolate (da logo) */
 --success-color: #228B22     /* Verde floresta (da logo) */
 --tech-green: #32CD32        /* Verde lima circuitos (da logo) */
 --text-dark: #2F2F2F         /* Texto mais escuro */
 --bg-light: #FEFEFE          /* Fundo mais limpo */
---bg-secondary: #F8F8F0      /* Fundo alternativo */
+--bg-secondary: #F8F8F0     /* Fundo alternativo */
 ```
 
 #### ✅ **Gradientes Atualizados:**
 - **Gradient 1**: `#8B4513 → #CD853F`
-- **Gradient 2**: `#CD853F → #D2691E`
+- **Gradient 2**: `#CD853F → #b96f3aff`
 - **Gradient Tech**: `#228B22 → #32CD32`
 
 ### 📝 **3. Nomenclatura Corrigida**
